@@ -38,15 +38,6 @@ h1 span {
     -webkit-text-fill-color: transparent;
 }
 
-h1 span:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -2px;
-    background: #121312;
-}
-
 p {
     font-size: 1.6em;
     font-weight: 300;
@@ -58,7 +49,6 @@ p {
 
 a {
     text-decoration: none;
-    position: relative;
     color: #121312;
 }
 
@@ -66,7 +56,14 @@ a:visited {
     color: #121312;
 }
 
-a:before {
+.link {
+    text-decoration: none;
+    position: relative;
+    color: #121312;
+}
+
+.link:before {
+
     content: '';
     position: absolute;
     height: 50%;
@@ -75,6 +72,10 @@ a:before {
     width: 100%;
     background: rgba(153, 224, 255, 0.5);
     transition: .6s;
+}
+
+.link-underline {
+    text-decoration: underline;
 }
 
 a:hover:before{
