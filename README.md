@@ -2,7 +2,7 @@ Portfolio inspired by Evan You which I created on my own way and added some back
 
 Back-end: 
 - translate to english the text if someone browse from outside of Poland,
-- logs browsing user agent do database.
+- logs browsing user agent to database.
 
 Available on http://swakowski.eu 
 
